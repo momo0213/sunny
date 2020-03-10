@@ -20,7 +20,7 @@ suite = unittest.TestSuite()
 loader = unittest.TestLoader()
 suite.addTest(loader.loadTestsFromModule(test_main_stream))
 # 执行测试用例
-# runner = HTMLTestRunner(stream=open(os.path.join(reports_dir,date+"report.html"),"wb"),
+# runner = HTMLTestRunner(stream=open(os.path.join(report_dir,date+"report.html"),"wb"),
 #                         title="测试报告0225",
 #                         description="接口实战练习",
 #                         tester="Sunny")
